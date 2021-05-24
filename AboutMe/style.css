@@ -1,0 +1,114 @@
+body
+{
+	font-family: 'margheritaregular'
+}
+
+@font-face {
+    font-family: 'margheritaregular';
+    src: url('AboutMe/fonts/margherita-regular-webfont.woff2') format('woff2'),
+         url('AboutMe/fonts/margherita-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bloc_page
+{
+	margin: auto;
+	margin-left: 240px;
+}
+
+section
+{
+	border-left: 1px black solid;
+	padding-left: 12px;
+
+}
+
+section p
+{
+	margin-right: 2%;
+	width: 100%;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -40px;
+	margin-bottom: 3px;
+}
+
+ul
+{
+	font-size: 1.5em;
+}
+
+nav a 
+{
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #760001;
+}
+
+h2
+{
+	font-size: 2.0em;
+}
+
+p
+{
+	font-size: 1.5em;
+}
+
+
+#trois
+{
+	margin-right: 10px;
+	display: initial;
+}
+
+nav.deux
+{
+	text-align: center;
+	position: fixed;
+	left:10px;
+	
+}
+
+nav.un
+{
+	border-bottom: 1px black solid;
+}
+
+h1
+{
+	font-size: 3.0em
+}
+
+footer
+{
+	background-image: url(grey.jpeg);
+}
+
+header
+{
+	background-image: url(grey.jpeg);
+}
+
+@media screen and (max-width: 730px)
+{
+	nav.deux
+	{
+		display: none;
+	}
+
+	#bloc_page
+	{
+		margin-left: 0px;
+	}
+}
